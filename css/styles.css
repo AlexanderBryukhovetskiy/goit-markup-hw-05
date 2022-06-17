@@ -184,6 +184,7 @@ header {
 .nav-link:focus::after,
 .current:hover::after,
 .current:focus::after {
+    
     content: "";
 
     position: absolute;
