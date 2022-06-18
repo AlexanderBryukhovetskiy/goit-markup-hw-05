@@ -142,7 +142,7 @@ header {
 
 .nav-link:focus {
     outline-color: transparent;
-    color: var(--accent-color);
+    color: var(--accent-color); 
 }
 
 .contact-link {
@@ -179,11 +179,9 @@ header {
 }
 /*-----------------------------------------------*/
 
-/*оформлення синього підкреслення при hover, focus елемента у хедері обох сторінок*/
-.nav-link:hover::after,
-.nav-link:focus::after,
-.current:hover::after,
-.current:focus::after {
+/*оформлення синього підкреслення активної сторінки у хедері*/
+.underline::after,
+.current::after {
     
     content: "";
 
@@ -286,6 +284,7 @@ header {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    margin-top: 2px;
 
     background-color: var(--main-dark);
     text-align: center;
