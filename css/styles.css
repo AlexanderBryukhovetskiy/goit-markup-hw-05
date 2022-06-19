@@ -141,7 +141,7 @@ header {
 }
 
 .nav-link:focus {
-    outline-color: transparent;
+    outline: none;
     color: var(--accent-color); 
 }
 
@@ -156,7 +156,7 @@ header {
 }
 
 .contact-link:focus {
-    outline-color: transparent;
+    outline: none;
     color: var(--accent-color);
 }
 
